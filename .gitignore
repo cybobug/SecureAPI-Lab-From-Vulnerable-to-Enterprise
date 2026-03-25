@@ -1,0 +1,38 @@
+# --- Python & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Environment & Secrets ---
+.env
+.venv/
+env/
+venv/
+ENV/
+.SECRET_KEY
+.flaskenv
+
+# --- Databases (CRITICAL: Do not upload lab data) ---
+*.db
+*.sqlite3
+
+# --- Logs & Security Audit Output ---
+*.log
+security_audit.json
+security_v4_audit.json
+
+# --- OS Garbage ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- VS Code & IDEs ---
+.vscode/
+.idea/
+.project
+.pydevproject
+.settings/
+*.swp
